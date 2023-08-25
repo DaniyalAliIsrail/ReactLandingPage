@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css'
-import Navbar from './navbar/navbar.jsx';
-
+import './App.css';
+import Navigation from './components/navbar'
+import Herosection from './components/hero';
 function App() {
   return (
-    <>
-    <Navbar/>
-    </>
+    <React.Fragment>
+
+    <Navigation/>
+    <Herosection />
+    
+    </React.Fragment>
+    
   )
 }
-export default App
+export default App;
